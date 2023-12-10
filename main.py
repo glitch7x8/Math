@@ -6,8 +6,8 @@ print ("""
                                  By.Aymen & Rahim """)
 input=int(input("\033[0;33m==> "))
 if input == 1:
-	os.system("python 0.py")
+	os.system("python pgcd.py")
 if input == 2:
-	os.system("python 1.py")
+	os.system("python ppcm.py")
 if input <= 0 or input > 2 :
 	print ("There Is Only 1 and 2")
